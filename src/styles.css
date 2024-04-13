@@ -3,7 +3,9 @@
 html,
 body {
   height: 100%;
-  background-image: linear-gradient(306.6928056867816deg, #ffffff, #ffffff, #acebe3, #FFFFFF, #FFFFFF);
+  /* background-image: linear-gradient(306.6928056867816deg, #ffffff, #ffffff, #acebe3, #FFFFFF, #FFFFFF); */
+  background-image: url("assets/full-bg-right.svg");
+  background-repeat: repeat-y;
 }
 body {
   margin: 0;
