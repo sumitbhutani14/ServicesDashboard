@@ -1,9 +1,11 @@
 <div class="content">
-  <div class="left-content">
+  <!-- <div class="left-content">
     <h1 mat-dialog-title>{{ data.name }}</h1>
-  </div>
-  <div class="status-design right-content">
-    <span class="button-style custom-config"></span>
+  </div> -->
+  <div class="status-design">
+    <span class="button-cylinder" [ngStyle]="{'background-color': data.status}">
+      {{ data.name }}
+    </span>
   </div>
 </div>
 

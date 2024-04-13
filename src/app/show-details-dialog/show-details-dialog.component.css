@@ -15,20 +15,7 @@ table {
     }
 }
 
-.mat-header-row {
-    background-color: teal;
-    color: white;
-    font-weight: bold;
-}
-
-.mat-header-cell {
-    color: white;
-    font-weight: bold;
-}
-
 .status-design {
-    .custom-config {
-        background-color: green;
-    }
+    padding: .25rem 0 1rem 0;
 }
 
