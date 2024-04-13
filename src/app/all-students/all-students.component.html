@@ -3,7 +3,7 @@
 </div> -->
 
 <div class="content">
-  <div class="left-content">
+  <div>
     <table mat-table [dataSource]="allServices" class="mat-elevation-z8">
       <ng-container matColumnDef="id">
         <th mat-header-cell *matHeaderCellDef>Service Id</th>
@@ -17,7 +17,7 @@
 
       <ng-container matColumnDef="status">
         <th mat-header-cell *matHeaderCellDef>Status</th>
-        <td mat-cell *matCellDef="let element" [ngStyle]="{color: element.status}">{{ element.status }}</td>
+        <td mat-cell *matCellDef="let element" class="button-circle" [ngStyle]="{'background-color': element.status}"></td>
       </ng-container>
 
       <!-- <ng-container matColumnDef="details">
@@ -42,26 +42,19 @@
     </table>
   </div>
 
-  <div class="right-content mat-elevation-z8" *ngIf="allServices">
+  <!-- <div class="right-content mat-elevation-z8" *ngIf="allServices">
     <table mat-table [dataSource]="allServices">
-      <!-- <ng-container *ngFor="let col of detailsColumns" [matColumnDef]="col">
-        <mat-header-cell *matHeaderCellDef="">{{ col }}</mat-header-cell>
-        <mat-cell *matCellDef="let obj">{{ obj[col] }}</mat-cell>
-      </ng-container> -->
-
       <ng-container matColumnDef="cpu">
         <th mat-header-cell *matHeaderCellDef>CPU</th>
         <td mat-cell *matCellDef="let element">{{ element.details.cpu }}</td>
       </ng-container>
-
       <ng-container matColumnDef="memory">
         <th mat-header-cell *matHeaderCellDef>Memory</th>
         <td mat-cell *matCellDef="let element">{{ element.details.memory }}</td>
       </ng-container>
-
       <tr mat-header-row *matHeaderRowDef="detailsColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: detailsColumns"></tr>
     </table>
-  </div>
+  </div> -->
 
 </div>

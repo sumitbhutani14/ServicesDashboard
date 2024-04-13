@@ -1,10 +1,10 @@
-/* table {
-  width: 80%;
-} */
+table {
+  width: 100%;
+}
 
 .content {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   padding: 10px;
   margin: 10px;
 
@@ -28,7 +28,7 @@
 }
 
 .mat-row:hover {
-  background-color: rgb(169, 223, 223);
+  background-color: #acebe3;
   color: white;
   cursor: pointer;
   font-weight: 500;

@@ -1,13 +1,34 @@
+table {
+    width: 100%;
+}
+
 .content {
     display: flex;
     justify-content: space-between;
-    padding: .6rem 0 0.6rem 0;
 
     .left-content {
-      float: left;
+        float: left;
     }
 
     .right-content {
-      float: right;
+        float: right;
     }
-  }
+}
+
+.mat-header-row {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+}
+
+.mat-header-cell {
+    color: white;
+    font-weight: bold;
+}
+
+.status-design {
+    .custom-config {
+        background-color: green;
+    }
+}
+

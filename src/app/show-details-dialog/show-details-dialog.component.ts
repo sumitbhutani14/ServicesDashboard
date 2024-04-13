@@ -9,8 +9,8 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 export class ShowDetailsDialogComponent implements OnInit {
 
   displayedColumns: string[] = [
-    'cpu',
-    'memory'
+    'key',
+    'value'
   ];
 
   constructor(
