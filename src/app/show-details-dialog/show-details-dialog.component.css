@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: .6rem 0 0.6rem 0;
+
+    .left-content {
+      float: left;
+    }
+
+    .right-content {
+      float: right;
+    }
+  }

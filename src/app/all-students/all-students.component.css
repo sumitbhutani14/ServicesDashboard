@@ -1,0 +1,35 @@
+/* table {
+  width: 80%;
+} */
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+
+  .left-content {
+    float: left;
+    margin: 10px
+  }
+
+  .right-content {
+    float: right;
+    margin: 10px;
+  }
+}
+
+.allstudents-container {
+  padding: 10px;
+}
+
+.details-container {
+  padding: 10px;
+}
+
+.mat-row:hover {
+  background-color: rgb(169, 223, 223);
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}

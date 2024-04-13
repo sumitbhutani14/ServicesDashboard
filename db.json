@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "RMQ",
+      "status": "red",
+      "details": [
+        { "key": "cpu", "value": "red" },
+        { "key": "memory", "value": "green" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "DB Server",
+      "status": "green",
+      "details": [
+        { "key": "cpu", "value": "green" },
+        { "key": "memory", "value": "green" }
+      ]
+    }
+  ]
+}
