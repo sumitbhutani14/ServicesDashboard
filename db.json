@@ -17,6 +17,24 @@
         { "key": "cpu", "value": "green" },
         { "key": "memory", "value": "green" }
       ]
+    },
+    {
+      "id": 3,
+      "name": "SDM",
+      "status": "orange",
+      "details": [
+        { "key": "cpu", "value": "amber" },
+        { "key": "memory", "value": "green" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "API",
+      "status": "green",
+      "details": [
+        { "key": "cpu", "value": "green" },
+        { "key": "memory", "value": "green" }
+      ]
     }
   ]
 }

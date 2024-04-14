@@ -3,9 +3,19 @@
 html,
 body {
   height: 100%;
+  /* background-image: url("assets/full-bg-right.svg");
+  background-repeat: repeat-y; */
   /* background-image: linear-gradient(306.6928056867816deg, #ffffff, #ffffff, #acebe3, #FFFFFF, #FFFFFF); */
-  background-image: url("assets/full-bg-right.svg");
-  background-repeat: repeat-y;
+  background: repeat-y url("assets/full-bg-right.svg") top -10rem center / 40rem, #fff;
+  background-image: url("assets/full-bg-mobile.svg"), initial;
+  background-position-x: center, initial;
+  background-position-y: top -10rem, initial;
+  background-size: 40rem, initial;
+  background-repeat: repeat-y, initial;
+  background-attachment: initial, initial;
+  background-origin: initial, initial;
+  background-clip: initial, initial;
+  background-color: rgb(255, 255, 255);
 }
 body {
   margin: 0;

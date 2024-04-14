@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Student } from '../student';
 import { StudentsService } from '../students.service';
+import { ServicesService } from '../services.service';
 import { MatDialog } from '@angular/material/dialog';
 import { DeleteDialogStudentComponent } from '../delete-dialog-student/delete-dialog-student.component';
 import { ShowDetailsDialogComponent } from '../show-details-dialog/show-details-dialog.component';
@@ -26,9 +27,16 @@ export class AllStudentsComponent implements OnInit {
     'cpu', 
     'memory'
   ];
+  iconStatusMap = {
+    'red': 'error',
+    'green': 'check_circle',
+    'orange': 'warning'
+  }
+  iconName='error';
 
   constructor(
     private studentService: StudentsService,
+    private servicesService: ServicesService,
     public dialog: MatDialog
   ) {}
 
@@ -37,11 +45,7 @@ export class AllStudentsComponent implements OnInit {
   }
 
   get() {
-    /* this.studentService.get().subscribe((data) => {
-      this.allStudentsSource = data;
-    }); */
-
-    this.studentService.getAllServices().subscribe((data) => {
+    this.servicesService.getAllServices().subscribe((data) => {
       if (data) {
         this.allServices = data;
         console.log(this.allServices);
