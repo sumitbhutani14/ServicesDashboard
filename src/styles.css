@@ -61,3 +61,15 @@ body {
     border-radius: 50%;
     color: white;
 }
+
+.text_uppercase {
+  text-transform:uppercase;
+}
+
+.text_capitalize {
+  text-transform:capitalize; 
+}
+
+.mat-header-cell {
+  text-transform:uppercase; 
+}

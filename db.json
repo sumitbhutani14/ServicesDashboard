@@ -7,7 +7,8 @@
       "details": [
         { "key": "cpu", "value": "red" },
         { "key": "memory", "value": "green" }
-      ]
+      ],
+      "details2": [{ "cpu": "red", "memory": "green" }]
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "details": [
         { "key": "cpu", "value": "green" },
         { "key": "memory", "value": "green" }
-      ]
+      ],
+      "details2": [{ "cpu": "green", "memory": "green" }]
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "details": [
         { "key": "cpu", "value": "amber" },
         { "key": "memory", "value": "green" }
-      ]
+      ],
+      "details2": [{ "cpu": "amber", "memory": "green" }]
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "details": [
         { "key": "cpu", "value": "green" },
         { "key": "memory", "value": "green" }
-      ]
+      ],
+      "details2": [{ "cpu": "green", "memory": "green" }]
     }
   ]
 }

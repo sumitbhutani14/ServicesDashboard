@@ -2,5 +2,6 @@ export interface Service {
   id: number;
   name: string;
   status: string;
-  details: [];
+  details: Array<any>;
+  details2: Array<any>;
 }

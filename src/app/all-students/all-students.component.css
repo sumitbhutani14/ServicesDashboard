@@ -20,7 +20,7 @@ table {
 }
 
 .allstudents-container {
-  padding: 10px;
+  padding: 20px 0 0 0;
 }
 
 .details-container {
@@ -29,7 +29,63 @@ table {
 
 .mat-row:hover {
   background-color: #acebe3;
-  color: white;
   cursor: pointer;
+  font-weight: 600;
+}
+
+
+tr.example-detail-row {
+  height: 0;
+}
+
+.mat-column-expandedDetail:hover {
+  background-color: white;
+  color: #005151;
+  cursor: auto;
   font-weight: 500;
+}
+
+.example-element-detail {
+  overflow: hidden;
+
+  .status-design {
+    padding: 1.25rem 0 1.25rem 0;
+    .button-cylinder {
+      box-shadow: none;
+    }
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    .left-content {
+        float: left;
+    }
+
+    .right-content {
+        float: right;
+    }
+  }
+
+  .mat-header-row {
+    background-color: white;
+    color: #005151;
+    font-weight: 500;
+  }
+
+  .mat-row:hover {
+    background-color: white;
+    cursor: auto;
+    font-weight: 500;
+  }
+
+  .mat-header-cell {
+    color: #005151;
+  }
+
+  .details-table {
+    margin: 0 0 20px 0;
+  }
+
 }
